@@ -10,13 +10,12 @@ int main() {
     // test getint.c:
     int n, array[SIZE], getint(int *);
 
-    for (n = 0; n < SIZE && getint(&array[n]) != EOF; n++)
-        ;
-
-    for (int i = 0; i < SIZE; i++) {
-        printf("%d ", array[i]);
+    for (n = 0; n < SIZE && getint(&array[n]) != EOF; n++) {
+        for (int i = 0; i < SIZE-1; i++) {
+            printf("%d ", array[i]);
+        }
+        printf("\n");
     }
-    printf("\n");
 
     return 0;
 }
