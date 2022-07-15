@@ -17,4 +17,5 @@ free-format input conversion to one integer per call. Section 5.2 of The C Progr
 - Last thing the function prints is the array of size `SIZE` (`SIZE` = 10 in this example)
 
 ## What did I learn from this:
-- 
+- Input streams in C.
+- Arrays, pointers and indexing.
